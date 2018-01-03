@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Pixel Art Maker!</title>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,900" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+    <div class="wrapper">
+        <div class="leftPane">
+            <div class="description">
+                <h1>PIXEL ART</h1>
+                <h1>MAKER</h1>
+                <p>by brikson</p>
+            </div>
+    
+            <h2 class="textPosition">Choose Grid Size</h2>
+            
+            <div class="widtAndHeight">
+                    
+                <div class="addCount" id="heightLabel">Height:</div>
+                <div class="addCount" id="input_height">+</div>
+                <div id="heightCounter" class="addCount">10</div>
+                <div id="heightMinCount" class="addCount">-</div>
+            </div>
+            
+            <div class="widtAndHeight">
+                <div class="addCount" id="widthLabel">Width:</div>
+                <div class="addCount" id="input_width">+</div>
+                <div id="widthCounter" class="addCount">10</div>
+                <div id="widthMinCount" class="addCount">-</div>
+            </div>
+            
+            <div>
+                <input type="submit" id="mkGrd" value="Grid it!" class="gridder">
+            </div>
+    
+            <div class="colorPickerDiv">
+                <h2 class="textPosition">Pick A Color</h2>
+                <input type="color" id="colorPicker">
+            </div>
+    
+        </div>
+        <div class="grid">
+            <div class="container"></div>
+        </div>
+        
+    </div>
+        <script src="designs.js"></script>
+    </body>
+    
+    </html>
