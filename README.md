@@ -7,7 +7,7 @@
 
 ## Instructions
 
-To set color press and hold mouse left mouse button.
+To set cell's color, press and hold mouse left mouse button.
 
 Remove color by clicking or holding right mouse button.
 
